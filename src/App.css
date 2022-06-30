@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 166, 0);
+}
+
+#Calendar {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background: yellow; */
+}
+
+.rbc-month-view {
+  flex-basis: 500px !important;
+}
+
+.rbc-toolbar-label {
+  font-weight: bold;
+  font-size: 22px;
+  color: #1e556b;
+}
+
+.rbc-event {
+  background-color: #1e556b !important;
+  color: white;
+  width: 100% !important;
+}
+
+.rbc-date-cell {
+  color: #2f86a8;
+}
+
+.rbc-today {
+  background-color: rgb(201, 248, 230) !important;
+}
+
+@media (max-width: 480px) {
+  .rbc-toolbar {
+    display: block !important;
+  }
+
+  .rbc-btn-group {
+    display: block !important;
+    text-align: center !important;
+  }
+}
